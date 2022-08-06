@@ -4,6 +4,9 @@ namespace CreatePerson;
 
 public class Human : Create
 {
+    /**
+     * Этот конструктор выполняет создания персонажа человека
+     */
     public Human()
     {
         id = Guid.NewGuid();

@@ -5,6 +5,9 @@ namespace CreatePerson
 {
     public class Ork : Create
     {
+        /**
+        * Этот конструктор выполняет создания персонажа человека
+        */
         public Ork()
         {
             id = Guid.NewGuid();

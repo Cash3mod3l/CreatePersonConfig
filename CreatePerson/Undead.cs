@@ -4,6 +4,9 @@ namespace CreatePerson
 {
     public class Undead : Create
     {
+        /**
+        * Этот конструктор выполняет создания персонажа человека
+        */
         public Undead()
         {
             id = Guid.NewGuid();
